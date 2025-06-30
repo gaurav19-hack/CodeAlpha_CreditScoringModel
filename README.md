@@ -1,48 +1,60 @@
-# Credit Scoring Model 🏦
+# Credit Scoring Model 🔍💳
 
-This project builds a machine learning model to predict credit approval using the Australian Credit Approval dataset from the UCI Machine Learning Repository.
-
----
-
-## 📌 Problem Statement
-
-Financial institutions need to determine whether a customer is creditworthy before approving loans or credit. This project aims to automate that decision using a supervised machine learning model.
+## 📌 Objective:
+To predict an individual's **creditworthiness** using past financial data.
 
 ---
 
-## 📊 Dataset
-
-- **Source:** UCI Machine Learning Repository  
-- **Name:** Australian Credit Approval  
-- **Rows:** 690  
-- **Features:** 14 (`A1` to `A14`)  
-- **Target:** `Class` (0 = Rejected, 1 = Approved)
+## 🧠 ML Approach:
+- Built using **classification models**:
+  - Logistic Regression
+  - Random Forest Classifier
 
 ---
 
-## 🧠 Technologies Used
-
-- Python
-- Pandas, NumPy
-- Matplotlib, Seaborn
-- Scikit-learn
-- Jupyter Notebook
+## 📊 Features:
+- Feature engineering from financial history
+- Models trained on real credit data
+- Metrics: **Precision, Recall, F1-score, ROC-AUC**
 
 ---
 
-## 🔎 Project Workflow
+## ✅ Model Results:
 
-1. Data Loading using `ucimlrepo`
-2. Exploratory Data Analysis (EDA)
-3. Train/Test Split
-4. Model Training using Random Forest Classifier
-5. Model Evaluation: Accuracy, Classification Report, Confusion Matrix
+| Model               | Accuracy | ROC-AUC |
+|--------------------|----------|---------|
+| Random Forest       | ~85%     | 0.9200  |
+| Logistic Regression | ~86%     | 0.8409  |
 
 ---
 
-## ⚙️ How to Run
+## 🧪 Evaluation Metrics Used:
+- Precision
+- Recall
+- F1-score
+- ROC-AUC Score
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/gaurav19-hack/CodeAlpha_CreditScoringModel.git
-   cd CodeAlpha_CreditScoringModel
+Dataset used was clean and under GitHub 100MB limit ✔️  
+All results were generated using **scikit-learn**.
+
+---
+
+## 📸 Screenshots
+
+### 1. Dataset Preview
+![Dataset Preview](screenshots/dataset_preview.png)
+
+### 2. Model Evaluation (Confusion Matrix & Report)
+![Model Evaluation](screenshots/model_evaluation.png)
+
+### 3. ROC Curve
+![ROC Curve](screenshots/roc_curve.png)
+
+---
+
+
+## 📂 Repo Structure:
+├── CreditScoringModel.ipynb
+├── credit_scoring_sample.csv
+├── requirements.txt
+└── README.md
