@@ -42,13 +42,13 @@ All results were generated using **scikit-learn**.
 ## 📸 Screenshots
 
 ### 1. Dataset Preview
-![Dataset Preview](screenshots/dataset_preview.png)
+![Dataset Preview](screenshots/dataset_preview.png.png)
 
 ### 2. Model Evaluation (Confusion Matrix & Report)
-![Model Evaluation](screenshots/model_evaluation.png)
+![Model Evaluation](screenshots/model_evaluation.png.png)
 
 ### 3. ROC Curve
-![ROC Curve](screenshots/roc_curve.png)
+![ROC Curve](screenshots/roc_curve.png.png)
 
 ---
 
